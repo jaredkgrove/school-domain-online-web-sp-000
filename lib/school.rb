@@ -20,6 +20,5 @@ class School
     @roster.collect do |grade, students|
       [grade, students.sort]
     end.to_h
-    
   end
 end
