@@ -8,6 +8,6 @@ class School
   end
   
   def add_student(name, grade)
-    @roster.include?(grade)
+    @roster.include?(grade) ? @roster[grade] << name : 
   end
 end
