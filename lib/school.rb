@@ -19,6 +19,7 @@ class School
   def sort 
     @roster.collect do |grade, students|
       [grade => students.sort]
-    end.to_h
+    end
+    
   end
 end
